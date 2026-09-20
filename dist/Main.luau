@@ -7,8 +7,9 @@
 	|/           '-'         '-'
 	
 	parser library - by depthso
-    fixed by Snxdfer (00Fazee)
+	fixed by Snxdfer (00Fazee)
 ]]
+
 local a a={cache={},load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
 end return a.cache[b].c end}do function a.a()local b={}b.__index=b local c,d=
 TweenInfo.new(),workspace.GetServerTimeNow b.ClassNameStrings={DataModel='game',
@@ -161,7 +162,7 @@ MakeParentsTable(j)e(g,l)h[j]=l k=true until true if not k then break end end
 return g,h end function b:PrerenderVariables(f,g)if self.NoVariables then return
 end local h=self:CollectTableTypes(f,g)for i,j in next,h do local k=d[i]if k
 then k(self,j)end end end return b end end local b,c={Version='1.0.8',Author=
-'Depso',License='GNU-GPLv3',Repository=
+'Snxdfer',License='GNU-GPLv3',Repository=
 'https://github.com/Snxdfer/Roblox-parser',ImportUrl=
 [[https://raw.githubusercontent.com/Snxdfer/Roblox-parser/refs/heads/main]],
 Modules={Formatter=a.load'a',Parser=a.load'b',Variables=a.load'c'}},function(b,c

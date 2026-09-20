@@ -7,5 +7,5 @@
 	|/           '-'         '-'
 	
 	parser library - by depthso
-    fixed by Snxdfer (00Fazee)
+	fixed by Snxdfer (00Fazee)
 ]]
