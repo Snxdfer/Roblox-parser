@@ -7,7 +7,7 @@
 	|/           '-'         '-'
 	
 	parser library - by depthso
-  fixed by Snxdfer (00Fazee)
+    fixed by Snxdfer (00Fazee)
 ]]
 local a a={cache={},load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
 end return a.cache[b].c end}do function a.a()local b={}b.__index=b local c,d=
