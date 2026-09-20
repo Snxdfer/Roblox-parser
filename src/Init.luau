@@ -10,7 +10,7 @@ local Module = {
 	Author = "Snxdfer",
 	License = "GNU-GPLv3",
 	Repository = "https://github.com/Snxdfer/Roblox-parser",
-	ImportUrl = "https://raw.githubusercontent.com/Snxdfer/Roblox-parser/refs/heads/main,
+	ImportUrl = "https://raw.githubusercontent.com/Snxdfer/Roblox-parser/refs/heads/main",
 
 	Modules = {
 		Formatter = require("@src/Formatter"),
